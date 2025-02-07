@@ -1,0 +1,6 @@
+@ToggeleRanking_HostAddress = http://localhost:5244
+
+GET {{ToggeleRanking_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
