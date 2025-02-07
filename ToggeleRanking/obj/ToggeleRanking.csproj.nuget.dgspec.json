@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\basil.vetterli\\source\\repos\\LearningProjects\\Toeggelo\\ToggeleRanking\\ToggeleRanking.csproj": {}
+    "c:\\Users\\basil.vetterli\\source\\repos\\LearningProjects\\Toeggelo\\ToggeleRanking\\ToggeleRanking.csproj": {}
   },
   "projects": {
-    "C:\\Users\\basil.vetterli\\source\\repos\\LearningProjects\\Toeggelo\\ToggeleRanking\\ToggeleRanking.csproj": {
+    "c:\\Users\\basil.vetterli\\source\\repos\\LearningProjects\\Toeggelo\\ToggeleRanking\\ToggeleRanking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\basil.vetterli\\source\\repos\\LearningProjects\\Toeggelo\\ToggeleRanking\\ToggeleRanking.csproj",
+        "projectUniqueName": "c:\\Users\\basil.vetterli\\source\\repos\\LearningProjects\\Toeggelo\\ToggeleRanking\\ToggeleRanking.csproj",
         "projectName": "ToggeleRanking",
-        "projectPath": "C:\\Users\\basil.vetterli\\source\\repos\\LearningProjects\\Toeggelo\\ToggeleRanking\\ToggeleRanking.csproj",
+        "projectPath": "c:\\Users\\basil.vetterli\\source\\repos\\LearningProjects\\Toeggelo\\ToggeleRanking\\ToggeleRanking.csproj",
         "packagesPath": "C:\\Users\\basil.vetterli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\basil.vetterli\\source\\repos\\LearningProjects\\Toeggelo\\ToggeleRanking\\obj\\",
+        "outputPath": "c:\\Users\\basil.vetterli\\source\\repos\\LearningProjects\\Toeggelo\\ToggeleRanking\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

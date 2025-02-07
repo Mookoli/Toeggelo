@@ -5,13 +5,21 @@ using ToggleRanking;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configure SQLite
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy => policy.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+});
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite("Data Source=table_soccer.db"));
 
 var app = builder.Build();
 
-// Ensure database is created
+app.UseCors("AllowFrontend");
+
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
@@ -51,9 +59,9 @@ app.MapPost("/matches", async (ApplicationDbContext db, Match match) =>
     );
 
     var newRatingsTeam2 = EloCalculator.Calculate(
-        team1Players.Select(p => p.Rating).ToList(),
         team2Players.Select(p => p.Rating).ToList(),
-        match.Team1Score > match.Team2Score ? 1 : 0
+        team1Players.Select(p => p.Rating).ToList(),
+        match.Team2Score > match.Team1Score ? 1 : 0
     );
 
     for (int i = 0; i < 2; i++)

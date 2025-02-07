@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToggeleRanking")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+223fff1cc8135bcb555b70f8616f3188614a675d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94bc45966d9148f3622686664cda57f77929d390")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToggeleRanking")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToggeleRanking")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
