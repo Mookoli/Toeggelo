@@ -9,10 +9,6 @@ namespace ToggeleRanking.Models
         public int Team2Score { get; set; }
         public DateTime Date { get; set; } = DateTime.UtcNow;
     }
-
-    public class Team
-    {
-        public int Player1Id { get; set; }
-        public int Player2Id { get; set; }
-    }
+    
+    public record Team(int Player1Id, int Player2Id);
 }

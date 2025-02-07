@@ -11,8 +11,8 @@ export interface Team {
 
 export interface Match {
     id: number;
-    team1: Team;
-    team2: Team;
+    team1: string[];
+    team2: string[];
     team1Score: number;
     team2Score: number;
     date: string;

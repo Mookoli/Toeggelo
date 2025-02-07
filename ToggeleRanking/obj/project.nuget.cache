@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yZQqquPakqY=",
+  "dgSpecHash": "KVI0g/SsEJk=",
   "success": true,
-  "projectFilePath": "c:\\Users\\basil.vetterli\\source\\repos\\LearningProjects\\Toeggelo\\ToggeleRanking\\ToggeleRanking.csproj",
+  "projectFilePath": "C:\\Users\\basil.vetterli\\source\\repos\\LearningProjects\\Toeggelo\\ToggeleRanking\\ToggeleRanking.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\basil.vetterli\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\basil.vetterli\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",

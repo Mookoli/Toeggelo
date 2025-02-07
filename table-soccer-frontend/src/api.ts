@@ -17,6 +17,6 @@ export const getMatches = async (): Promise<Match[]> => {
     return response.data;
 };
 
-export const submitMatch = async (match: Omit<Match, "id" | "date">): Promise<void> => {
+export const submitMatch = async (match: { team1: string[], team2: string[], team1Score: number, team2Score: number }): Promise<void> => {
     await axios.post(`${API_URL}/matches`, match);
 };
